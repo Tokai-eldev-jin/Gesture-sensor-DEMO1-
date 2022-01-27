@@ -8,7 +8,7 @@ Copyright 2017-2020 JellyWare Inc. All Rights Reserved.
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="BlueJelly">
     <meta name="viewport" content="width=640, maximum-scale=1.0, user-scalable=yes">
-    <title>BlueJelly-ESP32  BLE DEMO</title>
+    <title>Gesture Sensor DEMO</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="bluejelly.js"></script>
@@ -20,15 +20,15 @@ Copyright 2017-2020 JellyWare Inc. All Rights Reserved.
 
     <!--<div class="title margin">-->
     
-        <font color="orange" size='5'><p id="title"><strong>BlueJelly-ESP32  BLE DEMO</strong></p></font>
+        <font color="orange" size='5'><p id="title"><strong>Gesture Sensor DEMO</strong></p></font>
    
 
     <!--<div class="contents margin">-->
     
         <button id="startNotifications" class="button">Start Notify</button>
         <button id="stopNotifications" class="button">Stop Notify</button>
-        <button id="write1" class="button">4方向</button>
-        <button id="write2" class="button">8方向</button>
+        <!--<button id="write1" class="button">4方向</button>
+        <button id="write2" class="button">8方向</button>-->
         <hr>
         <div id="svg">GRAPH AREA</div>
         <hr>
@@ -201,6 +201,7 @@ document.getElementById('stopNotifications').addEventListener('click', function(
 });
 
 
+/*
 document.getElementById('write1').addEventListener('click', function() {
   //フォーマットに従って値を変換
   const textEncoder = new TextEncoder();
@@ -220,6 +221,7 @@ document.getElementById('write2').addEventListener('click', function() {
   gesflag=1;
   sosimode=1;
 });
+*/
 
 
 
